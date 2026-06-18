@@ -1,0 +1,44 @@
+/* Add to existing UserDashboard.css */
+.success-message {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: var(--pos-bg);
+  color: var(--pos);
+  padding: 12px 20px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--pos);
+  z-index: 1000;
+  animation: slideInRight 0.3s ease;
+  font-weight: 500;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--text-3);
+}
+
+.empty-state-small {
+  text-align: center;
+  padding: 20px;
+  color: var(--text-3);
+}
+
+.user-dashboard-content.empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px;
+}

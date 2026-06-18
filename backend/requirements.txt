@@ -1,0 +1,9 @@
+torch
+torchvision
+torchaudio
+transformers
+datasets
+accelerate
+sentencepiece
+tqdm
+mamba-ssm
