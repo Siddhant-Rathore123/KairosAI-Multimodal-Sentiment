@@ -1,9 +1,28 @@
-torch
-torchvision
-torchaudio
-transformers
-datasets
-accelerate
-sentencepiece
-tqdm
-mamba-ssm
+# Core Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+
+# Machine Learning & Deep Learning
+torch==2.1.0
+torchvision==0.16.0
+transformers==4.35.0
+datasets==2.15.0
+
+# Computer Vision & Image Processing
+Pillow==10.1.0
+opencv-python==4.8.1.78
+
+# Database
+sqlalchemy==2.0.23
+
+# Utilities
+numpy==1.24.3
+requests==2.31.0
+python-dotenv==1.0.0
+tqdm==4.66.1
+
+# Optional but recommended
+huggingface-hub==0.19.4  # For model downloads
+einops==0.7.0            # Mamba uses this
